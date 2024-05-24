@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:latihan18mei/latihan16mei/home.dart';
 
 import 'latihan18mei/latihanmaps/page_home.dart';
 
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: KampusList(),
+      home: PageAwal(),
       debugShowCheckedModeBanner: false,
     );
   }
